@@ -1427,6 +1427,41 @@ blockquote {
     display: inline-block;
 }
 
+#clients a.link {
+  display: inline;
+  text-align: left;
+  color: black;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+#clients a.link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -0.25em;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#clients a.link:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+#clients a.link i {
+  position: relative;
+  top: -0.08em;
+  font-size: .8em;
+}
+
 /* --------- 6.7 Pricing Table ---------- */
 
 .pricing-block-content {
