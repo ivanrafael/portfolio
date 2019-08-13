@@ -21,7 +21,7 @@
 - 6.2 Testimonials
 - 6.3 Gallery
 - 6.4 Video
-- 6.5 Clients
+- 6.5 Case Studies
 - 6.6 Pricing Table
 7. Footer
 
@@ -216,7 +216,7 @@ section {
     padding: 20px;
 }
 
-#clients .col-2-3 [class*='col-'] {
+#case-studies .col-2-3 [class*='col-'] {
     padding: 0;
 }
 
@@ -1381,9 +1381,9 @@ blockquote {
     cursor: pointer;
 }
 
-/* --------- 6.6 Clients ---------- */
+/* --------- 6.6 case-studies ---------- */
 
-#clients a {
+#case-studies a {
     display: block;
     text-align: center;
     position: relative;
@@ -1392,7 +1392,7 @@ blockquote {
     color: #fff;
 }
 
-#clients img {
+#case-studies img {
     display: inline-block;
     padding: 15px 25px;
 }
@@ -1414,7 +1414,7 @@ blockquote {
     transition: all 0.3s ease-out;
 }
 
-#clients a:hover .client-overlay {
+#case-studies a:hover .client-overlay {
     opacity: 1;
 }
 
@@ -1427,7 +1427,7 @@ blockquote {
     display: inline-block;
 }
 
-#clients a.link {
+#case-studies a.link {
   display: inline;
   text-align: left;
 /*  color:  var(--links);*/
@@ -1435,7 +1435,7 @@ blockquote {
   font-weight: normal;
 }
 
-#clients a.link::before {
+#case-studies a.link::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1450,13 +1450,13 @@ blockquote {
   transition: all 0.3s ease-in-out 0s;
 }
 
-#clients a.link:hover::before {
+#case-studies a.link:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-#clients a.link i {
+#case-studies a.link i {
   position: relative;
   top: -0.08em;
   font-size: .8em;
@@ -2393,7 +2393,3 @@ blockquote {
     }
 
 }
-
-
-
-
